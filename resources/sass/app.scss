@@ -1,0 +1,16 @@
+@use 'temporals/default';
+@use 'temporals/reset';
+@use 'temporals/icons';
+@use 'components/header';
+@use 'components/footer';
+@use 'components/various_mains/page.scss';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+

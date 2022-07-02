@@ -1,0 +1,33 @@
+@use 'colors' as color;
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body {
+    background-color: rgb(217, 224, 228);
+    //min-width: 1280px;
+
+    main {
+        z-index: 1;
+    }
+
+    ul {
+
+        
+    li {
+        color: color.$dark-blue {
+
+        }
+
+        ul {
+            li {
+                color: color.$indaco;
+            }
+        }
+    }
+    }
+
+}

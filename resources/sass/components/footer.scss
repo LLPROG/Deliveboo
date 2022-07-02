@@ -1,0 +1,16 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    background-color: #f49e4c;
+    color: #ab3428;
+    .container {
+        height: 100%;
+    }
+    p {
+        span {
+            font-size: 22px;
+            font-family: "Permanent Marker", cursive;
+        }
+    }
+}

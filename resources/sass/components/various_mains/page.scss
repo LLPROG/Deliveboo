@@ -1,0 +1,110 @@
+main {
+    font-family: 'Lato', sans-serif;
+    min-height: calc(100vh - 200px);
+    padding-top: 20px;
+    padding-bottom: 120px;
+    height: 100%;
+    background-color: #c1c1c1;
+    h1.name {
+        font-size: 40px;
+        font-weight: 900;
+        color: #ab3428;
+    }
+    #alert-screen {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        opacity: .6;
+        z-index: 1;
+    }
+    #alert-window {
+        width: 400px;
+        height: 200px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% ,-50%);
+        background-color: white;
+        border: 1px solid #c1c1c1;
+        opacity: 1;
+        border-radius: 20px;
+        z-index: 2;
+        h1 {
+            font-size: 24px;
+            font-weight: 900;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 900;
+        }
+    }
+    &.bg-food {
+        height: 100%;
+        width: 100%;
+        background-image: url('https://loremflickr.com/6000/4000/food') !important;
+        background-size: 3000px 2000px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+.dashboard {
+    .square {
+        border: 1px solid darkgrey;
+        min-height: 200px;
+        border-radius: 25px;
+        color: #fff;
+        padding: 20px;
+        h2 {
+            font-weight: 900;
+        }
+    }
+    .bg-tealblue {
+        background-color: #2d728f;
+    }
+    .bg-bluemunsell {
+        background-color: #3b8ea5;
+    }
+    .bg-sandybrown {
+        background-color: #f49e4c;
+    }
+    .bg-sweetbrown {
+        background-color: #ab3428;
+    }
+    .corner {
+        position: absolute;
+        bottom: 5px;
+        right: 20px;
+    }
+    table {
+        th {
+            font-weight: 900;
+        }
+        th, td {
+            // color: #2d728f;
+            // background-color: #fff;
+            border: 1px solid #fff;
+            padding: 0 10px;
+        }
+    }
+}
+
+.r-15 {
+    border-radius: 15px !important;
+}
+
+.bg-main {
+    background-color: #ab3428 !important;
+}
+
+.bg-sec {
+    background-color: #f49e4c !important;
+}
+
+.span-order {
+    color: #ab3428;
+
+}
